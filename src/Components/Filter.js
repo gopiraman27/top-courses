@@ -2,7 +2,7 @@ import React from 'react';
 
 const Filter = ({ filterData }) => {
   return (
-    <div className="w-11/12 max-w-max flex flex-wrap mx-auto py-4 space-x-4 justify-center">
+    <div className=" flex flex-wrap mx-auto py-4 space-x-4 justify-center">
       {filterData.map((data) => (
         <button 
           key={data.id} 

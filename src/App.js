@@ -10,15 +10,15 @@ const App = () => {
  
     // use state hook ka use kro 
     const [courses, setCourses] = useState();
-
     return (
-    <div className="wrapper w-full  flex flex-col flex-wrap overflow-hidden">
+    <div className="wrapper bg-bgDark2 flex flex-col flex-wrap overflow-hidden">
         
         <Navbar>  </Navbar>
-        <div className="container h-screen w-full  bg-bgDark2 flex flex-col">
-             <Filter filterData = {filterData}> </Filter>
+          
+            
+             <Filter filterData = {filterData}> </Filter> 
              <Cards courses = {courses}> </Cards>
-        </div>
+        
         
     </div>
   )
